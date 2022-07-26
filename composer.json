@@ -1,6 +1,7 @@
 {
     "name": "ekpono/inspire",
     "description": "This is to inspire you guys",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ekpono\\Inspire\\": "src/"
@@ -13,6 +14,7 @@
         }
     ],
     "require": {
+        "php": "^7.2.5 || ^8.0",
         "guzzlehttp/guzzle": "^7.0.1"
     }
 }
